@@ -2,6 +2,8 @@ import inspect
 
 from functools import update_wrapper
 
+# TODO equality
+# TODO safe version with matrix operator
 class Composable:
     def __init__(self, f):
         self.f = f
